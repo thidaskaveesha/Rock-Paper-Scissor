@@ -1,6 +1,6 @@
 import React from "react";
 
-function MatchPage() {
+function GamePage() {
     return (
         <div className="match-page">
             <h1>Match Page</h1>
@@ -9,4 +9,4 @@ function MatchPage() {
     );
 }
 
-export default MatchPage;
+export default GamePage;

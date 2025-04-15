@@ -1,17 +1,27 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MenuPage from './pages/menuPage';
-import WaitingPage from './pages/waitingPage';
-import MatchPage from './pages/matchPage';
+import WaitingRoomCreator from './pages/waitingRoomCreator';
+import WaitingRoomJoiner from './pages/waitingRoomJoiner';
+import GamePage from './pages/gamePage';
+import Toaster from './components/Toaster';
+
+import { useState } from "react";
 
 function App() {
+  const [toast, setToast] = useState({ message: "", type: "" });
+
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<MenuPage />} />
-        <Route path="/waiting-room" element={<WaitingPage />} />
-        <Route path="/match" element={<MatchPage />} />
-      </Routes>
-    </Router>
+    <>
+      <Toaster message={toast.message} type={toast.type} />
+      <Router>
+        <Routes>
+          <Route path="/" element={<MenuPage />} />
+          <Route path="/waiting-room-creator" element={<WaitingRoomCreator />} />
+          <Route path="/waiting-room-joiner" element={<WaitingRoomJoiner />} />
+          <Route path="/match" element={<GamePage />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 

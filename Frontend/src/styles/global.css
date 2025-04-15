@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #007bff, #6a0dad);
+    color: #333;
+    line-height: 1.6;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-container {
+    margin-top: 20px;
+}
+
+.btn {
+    width: 100%;
+    display: block;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.purple {
+    background-color: #6f42c1;
+}
+
+.btn.purple:hover {
+    background-color: #5a32a3;
+}
+
+.green {
+    background-color: #28a745;
+}
+
+.btn.green:hover {
+    background-color: #218838;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+/* Toaster styles */
+.toaster {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fade-in-out 3s ease;
+}
+
+.toaster-success {
+    background-color: #4caf50;
+    color: white;
+}
+
+.toaster-error {
+    background-color: #f44336;
+    color: white;
+}
+
+@keyframes fade-in-out {
+
+    0%,
+    100% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    10%,
+    90% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
