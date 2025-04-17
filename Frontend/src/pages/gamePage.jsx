@@ -27,14 +27,14 @@ function GamePage() {
                 <p></p>
             </div>
             <div className="content">
-                <h1>Time Left</h1>
-                <h2>00:00</h2>
+                <h2>Time Left</h2>
+                <h1>00:00</h1>
                 <p>Make your choice ?</p>
             </div>
             <div className="choice">
-                <FaHandRock  className="icon" />
-                <FaHandPaper  className="icon" />
-                <FaHandScissors  className="icon" />
+                <FaHandRock  className="game-icon" id="Rock"/>
+                <FaHandPaper  className="game-icon" id="Paper"/>
+                <FaHandScissors  className="game-icon" id="Scissor"/>
             </div>
         </div>
     );
