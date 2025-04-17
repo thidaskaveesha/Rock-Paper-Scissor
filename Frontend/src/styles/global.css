@@ -16,7 +16,7 @@ body {
     align-items: center;
 }
 
-.menu-container {
+.menu-container, .match-container {
     text-align: center;
     background-color: #fff;
     padding: 25px;
