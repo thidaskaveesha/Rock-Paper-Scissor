@@ -17,13 +17,14 @@ function GamePage() {
         <div className="match-container">
             <div className="header">
                 <button 
-                    className="btn" 
+                    className="backBtn white" 
                     onClick={navigateToMenu} 
                     aria-label="Go to menu"
                 >
                     <FaArrowLeft  className="icon" />
                 </button>
-                <h1>Game ID: {sessionID}</h1>
+                <h1 className="header-text">Game ID: {sessionID}</h1>
+                <p></p>
             </div>
             <div className="content">
                 <h1>Time Left</h1>
