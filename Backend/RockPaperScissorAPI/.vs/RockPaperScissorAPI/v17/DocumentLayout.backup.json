@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8DE950C-B7CD-492E-8365-AAD8EE1A4136}|RockPaperScissorAPI.csproj|c:\\users\\thidass\\desktop\\rock-paper-scissor\\backend\\rockpaperscissorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8DE950C-B7CD-492E-8365-AAD8EE1A4136}|RockPaperScissorAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8DE950C-B7CD-492E-8365-AAD8EE1A4136}|RockPaperScissorAPI.csproj|c:\\users\\thidass\\desktop\\rock-paper-scissor\\backend\\rockpaperscissorapi\\application\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8DE950C-B7CD-492E-8365-AAD8EE1A4136}|RockPaperScissorAPI.csproj|solutionrelative:application\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8DE950C-B7CD-492E-8365-AAD8EE1A4136}|RockPaperScissorAPI.csproj|c:\\users\\thidass\\desktop\\rock-paper-scissor\\backend\\rockpaperscissorapi\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8DE950C-B7CD-492E-8365-AAD8EE1A4136}|RockPaperScissorAPI.csproj|solutionrelative:infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8DE950C-B7CD-492E-8365-AAD8EE1A4136}|RockPaperScissorAPI.csproj|c:\\users\\thidass\\desktop\\rock-paper-scissor\\backend\\rockpaperscissorapi\\infrastructure\\signalr\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8DE950C-B7CD-492E-8365-AAD8EE1A4136}|RockPaperScissorAPI.csproj|solutionrelative:infrastructure\\signalr\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8DE950C-B7CD-492E-8365-AAD8EE1A4136}|RockPaperScissorAPI.csproj|c:\\users\\thidass\\desktop\\rock-paper-scissor\\backend\\rockpaperscissorapi\\domain\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8DE950C-B7CD-492E-8365-AAD8EE1A4136}|RockPaperScissorAPI.csproj|solutionrelative:domain\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8DE950C-B7CD-492E-8365-AAD8EE1A4136}|RockPaperScissorAPI.csproj|c:\\users\\thidass\\desktop\\rock-paper-scissor\\backend\\rockpaperscissorapi\\domain\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8DE950C-B7CD-492E-8365-AAD8EE1A4136}|RockPaperScissorAPI.csproj|solutionrelative:domain\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8DE950C-B7CD-492E-8365-AAD8EE1A4136}|RockPaperScissorAPI.csproj|c:\\users\\thidass\\desktop\\rock-paper-scissor\\backend\\rockpaperscissorapi\\application\\interfaces\\isessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8DE950C-B7CD-492E-8365-AAD8EE1A4136}|RockPaperScissorAPI.csproj|solutionrelative:application\\interfaces\\isessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8DE950C-B7CD-492E-8365-AAD8EE1A4136}|RockPaperScissorAPI.csproj|c:\\users\\thidass\\desktop\\rock-paper-scissor\\backend\\rockpaperscissorapi\\presentation\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8DE950C-B7CD-492E-8365-AAD8EE1A4136}|RockPaperScissorAPI.csproj|solutionrelative:presentation\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameHub.cs",
+              "DocumentMoniker": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\Infrastructure\\SignalR\\GameHub.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\SignalR\\GameHub.cs",
+              "ToolTip": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\Infrastructure\\SignalR\\GameHub.cs",
+              "RelativeToolTip": "Infrastructure\\SignalR\\GameHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T09:27:24.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T09:27:07.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SessionService.cs",
+              "DocumentMoniker": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\Application\\Services\\SessionService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\SessionService.cs",
+              "ToolTip": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\Application\\Services\\SessionService.cs",
+              "RelativeToolTip": "Application\\Services\\SessionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T09:26:42.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISessionService.cs",
+              "DocumentMoniker": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\Application\\Interfaces\\ISessionService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\ISessionService.cs",
+              "ToolTip": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\Application\\Interfaces\\ISessionService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\ISessionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T09:25:55.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SessionController.cs",
+              "DocumentMoniker": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\Presentation\\Controllers\\SessionController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\SessionController.cs",
+              "ToolTip": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\Presentation\\Controllers\\SessionController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\SessionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T09:24:37.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\Domain\\Player.cs",
+              "RelativeDocumentMoniker": "Domain\\Player.cs",
+              "ToolTip": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\Domain\\Player.cs",
+              "RelativeToolTip": "Domain\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T09:18:32.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\Domain\\Session.cs",
+              "RelativeDocumentMoniker": "Domain\\Session.cs",
+              "ToolTip": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\Domain\\Session.cs",
+              "RelativeToolTip": "Domain\\Session.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T09:18:24.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\thidass\\Desktop\\Rock-Paper-Scissor\\Backend\\RockPaperScissorAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T09:17:19.13Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

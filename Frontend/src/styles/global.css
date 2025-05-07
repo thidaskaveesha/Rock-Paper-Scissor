@@ -121,6 +121,11 @@ body {
     cursor: pointer;
 }
 
+.game-icon.selected{
+    scale: 1.1;
+    transition: all 0.3s ease;
+}
+
 /* Toaster styles */
 .toaster {
     position: fixed;
