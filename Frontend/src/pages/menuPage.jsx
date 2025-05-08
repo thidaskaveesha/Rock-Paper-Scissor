@@ -7,12 +7,12 @@ function MenuPage() {
     const navigate = useNavigate();
 
     const navigateToCreate = () => {
-        navigate("/waiting-room-creator");
+        navigate("/multiplayer-menu");
     };
 
     const navigateToJoin = () => {
-        navigate("/waiting-room-joiner");
-    };
+         navigate("/multiplayer-menu");
+    }; 
 
     const navigateToSinglePlay = () => {
         navigate("/match");
