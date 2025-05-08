@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import * as signalR from "@microsoft/signalr";
 import "../styles/global.css";
-import { api } from "../services/api";
+import { createSession } from "../services/api";
 
 function CreateGame() {
   const navigate = useNavigate();
@@ -12,18 +12,17 @@ function CreateGame() {
   const [connection, setConnection] = useState(null);
 
   useEffect(() => {
-    const createSession = async () => {
+    const handleCreateSession = async () => {
       setLoading(true);
       try {
-        const response = await api.post("/session/create");
+        const response = await createSession();
         setSessionId(response.data.sessionId);
       } catch (error) {
         console.error("Error creating session:", error);
       }
       setLoading(false);
     };
-
-    createSession();
+    handleCreateSession();
   }, []);
 
   useEffect(() => {

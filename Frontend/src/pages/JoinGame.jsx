@@ -19,8 +19,12 @@ function JoinGame() {
         }
     }, [playerId]);
 
+    
     const handleJoinGame = async () => {
+        
         setError("");
+       
+       
         if (!sessionId.trim()) {
             setError("Please enter a session ID.");
             return;
